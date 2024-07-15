@@ -1,0 +1,298 @@
+.main {
+  width: 100vw;
+  height: 420vh;
+  background-image: linear-gradient(to left, #6a1b9a, #9c27b0, #ffffff);
+  padding: 40px;
+}
+
+
+.hero {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
+
+#hero1 {
+  width: 1130px;
+  height: min-content;
+  color: #ffffff;
+}
+
+#navbarNavAltMarkup {
+  margin-left: 650px;
+}
+#navbarNavAltMarkup a:hover {
+  color: blueviolet;
+}
+#navbarNavAltMarkup button{
+  background-color: blue;
+  width: 140px;
+  border:solid blue;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+#navbarNavAltMarkup button a{
+  text-decoration: none;
+  color: #ffffff;
+}
+.hero3 {
+  text-align: justify;
+  padding-top: 100px;
+  font-size: 0.1rem;
+  padding-left: 30px;
+  color: #ffffff;
+  display: flex;
+}
+.hero3 b {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 4rem;
+  background: linear-gradient(90deg, #6a1b9a, #9c27b0, #ffffff);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.hero3 span {
+  color: aqua;
+}
+.facebook-link {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: none;
+  color: white;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+.facebook-link:hover {
+  color: violet;
+}
+.facebook-link .fab {
+  font-size: 32px;
+  text-align: center;
+}
+.instagram-link {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  background-color: none;
+  color: white;
+  text-align: center;
+  line-height: 80px;
+  border-radius: 50%;
+  text-decoration: none;
+  margin-left: 50px;
+}
+
+.instagram-link:hover {
+  color: violet;
+}
+
+/* Adjust the icon size */
+.instagram-link .fab {
+  font-size: 32px; /* Adjust the font-size for the icon */
+}
+.github-link {
+  display: inline-block;
+  width: 80px; /* Adjust size of circular container */
+  height: 80px; /* Adjust size of circular container */
+  background-color: none; /* Background color */
+  color: white; /* Text color */
+  text-align: center; /* Center the content */
+  line-height: 80px; /* Center vertically */
+  border-radius: 50%; /* Make it circular */
+  text-decoration: none; /* Remove underline */
+  margin-left: 20px; /* Add left margin */
+}
+
+.github-link:hover {
+  color: violet; /* Change color on hover */
+}
+
+/* Adjust the icon size */
+.github-link .fab {
+  font-size: 32px; /* Adjust the font-size for the icon */
+}
+.one {
+  padding-top: 100px;
+}
+/* Add this to your existing style.css */
+
+.about-content {
+  margin-top: 50px; /* Adjust spacing from the previous section */
+}
+
+.about-content h2 {
+  font-size: 2rem;
+  color: #0f0b0b;
+  margin-top: 20px;
+}
+
+.about-content p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #ffffff;
+  margin-left: 50px;
+}
+.second {
+  display: flex;
+  margin-top: 100px;
+}
+
+.about-content ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 50px;
+}
+
+.about-content ul li {
+  font-size: 1.2rem;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.about-content ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.about-content ul li a:hover {
+  color: violet;
+}
+.about-content button{
+     margin-left:200px;
+     margin-top: 10px;
+     background-color: #6a1b9a;
+     border: solid;color: #6a1b9a;
+     border-radius: 20px;
+}
+.about-content button a{
+  color: white;
+  text-decoration: none;
+
+  
+}
+.skills1 {
+  display: flex;
+  justify-content: left;
+  padding-left: 0%;
+}
+.skills {
+  justify-content: left;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  padding: 0%;
+  text-align: left;
+}
+
+.skill {
+  width: calc(20%- 20px); /* Adjust width with margin */
+  margin-bottom: 30px;
+  padding: 10px;
+}
+
+.skill-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #ffffff;
+}
+
+.skill-bar {
+  width: 200%;
+  background-color: #ffffff; /* White background for the skill bar */
+  height: 30px;
+  border-radius: 15px; /* Adjust for rounded corners */
+  position: relative;
+  overflow: hidden;
+}
+
+.skill-level {
+  height: 100%;
+  border-radius: 15px; /* Same as .skill-bar to maintain rounded shape */
+  transition: width 1s ease; /* Smooth animation for width change */
+}
+
+/* Individual colors for each skill */
+.skill .html-css {
+  background-color: palegreen; /* Green color for HTML/CSS */
+}
+.skill .html-cs {
+  background-color: rgb(226, 164, 164); /* Green color for HTML/CSS */
+}
+.skill .html-c {
+  background-color: #ead61d; /* Green color for HTML/CSS */
+}
+
+.skill .javascript {
+  background-color: #2196f3; /* Blue color for JavaScript */
+}
+.skill2{
+    float: left;
+    padding-left: 0%;
+    margin-left: 30%;
+}
+
+/* Add more classes and colors for additional skills */
+.container4 {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ccc;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+label, input, textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    color: white;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #fff;
+    color: #333;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #ccc;
+}
+#io{
+  margin-top: 100px;
+  margin-left: 0px;
+}
